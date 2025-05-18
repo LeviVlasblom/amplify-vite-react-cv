@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Scrollspy from "react-scrollspy";
-import { FaLinkedinIn, FaGithub, FaTwitter, FaGlobe } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaGlobe } from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
 
 const navItems = [
@@ -27,7 +27,7 @@ const Sidebar = () => {
     >
       {/* Top: Logo + Socials */}
       <div className="flex flex-col items-center space-y-6">
-        <div className="text-2xl font-bold text-orange-400">B.</div>
+        <div className="text-2xl font-bold text-orange-400">LV.</div>
         <div className="flex flex-col gap-4 text-gray-400">
           {socialItems.map(({ icon, href }, index) => (
             <a
