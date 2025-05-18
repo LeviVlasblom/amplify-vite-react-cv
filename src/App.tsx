@@ -1,6 +1,6 @@
 import Hero from "./sections/Hero";
 import Sidebar from "./components/Sidebar";
-import Topbar from "./components/topbar";
+import Topbar from "./components/Topbar";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 
