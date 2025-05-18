@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Scrollspy from "react-scrollspy";
 import { FaLinkedinIn, FaGithub, FaTwitter, FaGlobe } from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
 
 const navItems = [
   { id: "about", label: "About" },
@@ -10,9 +11,9 @@ const navItems = [
 ];
 
 const socialItems = [
-  { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
-  { icon: <FaGithub />, href: "https://github.com" },
-  { icon: <FaTwitter />, href: "https://twitter.com" },
+  { icon: <FaLinkedinIn />, href: "https://www.linkedin.com/in/levi-vlasblom-a41465195/" },
+  { icon: <FaGithub />, href: "https://github.com/LeviVlasblom" },
+  { icon: <FaX />, href: "https://x.com/EpsilonLevi" },
   { icon: <FaGlobe />, href: "#" },
 ];
 
