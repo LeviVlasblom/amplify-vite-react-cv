@@ -48,7 +48,7 @@ const Sidebar = () => {
         currentClassName="text-orange-400"
         offset={-10}
         componentTag="div"
-        className="flex flex-col gap-10 items-center justify-center"
+        className="flex flex-col gap-15 items-center justify-center"
       >
         {navItems.map(({ id, label }) => (
           <a

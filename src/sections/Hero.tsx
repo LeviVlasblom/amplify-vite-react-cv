@@ -17,7 +17,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        I'm a Full Stack Developer
+        I'm a Software Engineer
       </motion.h2>
       <motion.p
         className="max-w-xl text-gray-400 mb-8"
@@ -25,8 +25,9 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.5 }}
       >
-        I've spent the last 5 years building and scaling software for cool companies.
-        I also teach people to paint online (in case you've got an empty canvas layin' around 🎨). Let's connect!
+        I’m a software engineer with 2 years of experience building full-stack applications and scalable cloud systems. My work spans front-end frameworks like React and Angular to cloud platforms such as AWS and Azure. 
+        I’m also fluent in Python, C/C++, C#, and Java — with hands-on experience in game development. In my free time, I work on personal code projects and share motorcycle content on YouTube.
+         Let's connect!
       </motion.p>
       <motion.button
         className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded font-medium"
