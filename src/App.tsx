@@ -3,6 +3,8 @@ import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
+import Experience from "./sections/Experience";
+import Contact from "./sections/Contact";
 
 const App = () => {
   return (
@@ -14,8 +16,8 @@ const App = () => {
         <Hero />
         <About />
         <Projects />
-        <section id="exp" className="h-screen">Experience</section>
-        <section id="contact" className="h-screen">Contact</section>
+        <Experience />
+        <Contact />
       </main>
       </div>
     </div>

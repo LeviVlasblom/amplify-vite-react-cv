@@ -39,14 +39,14 @@ const Topbar = () => {
               className="absolute right-0 mt-2 bg-black border border-orange-700 rounded shadow-lg w-52"
             >
               <a
-                href="public/CV.pdf"
+                href="/CV.pdf"
                 download
                 className="block px-4 py-2 text-sm text-white hover:bg-gray-800 transition"
               >
                 Short Resume
               </a>
               <a
-                href="public/CV_Uitgebreid.pdf"
+                href="/CV_Uitgebreid.pdf"
                 download
                 className="block px-4 py-2 text-sm text-white hover:bg-gray-800 transition"
               >

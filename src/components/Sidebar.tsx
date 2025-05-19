@@ -46,18 +46,28 @@ const Sidebar = () => {
       {/* Middle: Rotated Nav Links */}
       <Scrollspy
         items={navItems.map((item) => item.id)}
-        currentClassName="text-orange-400"
+        currentClassName="active-nav"
         offset={-10}
         componentTag="div"
-        className="flex flex-col gap-15 items-center justify-center"
+        className="flex flex-col items-center gap-6"
       >
         {navItems.map(({ id, label }) => (
           <a
             key={id}
             href={`#${id}`}
-            className="transform -rotate-90 origin-center text-sm text-gray-400 hover:text-orange-400 transition tracking-wide"
+            className="relative w-16 h-12 flex items-center justify-center group "
           >
-            {label}
+            <div
+              className=" "
+            />
+            <div
+              className="relative transform -rotate-90 origin-center text-sm text-gray-400 group-hover:text-orange-400 transition tracking-wide z-10"
+            >
+              {label}
+            </div>
+
+            {/* Right border when active */}
+            <div className="absolute right-0 top-0 bottom-0 w-[2px] bg-orange-400 opacity-0 group-[.active-nav]:opacity-100 transition" />
           </a>
         ))}
       </Scrollspy>
