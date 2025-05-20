@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen px-10 py-20 flex flex-col justify-center items-center bg-[#0f0f0f]"
+      className="min-h-screen px-10 py-20 flex flex-col justify-center items-center"
     >
       {/* Centered inner content */}
       <div className="w-full max-w-xl flex flex-col items-center text-center space-y-8">
