@@ -6,7 +6,6 @@ import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
-import AnimatedBackground from "./components/AnimatedBackground";
 import FullProjectsList from "./Projects/FullProjectList";
 
 const MainLayout = () => (
