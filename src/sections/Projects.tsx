@@ -1,5 +1,11 @@
 import Reveal from "../components/Reveal";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import smixImage from "../assets/images/smix.jpeg";
+import heatnetImage from "../assets/images/heatnet.png";
+import exoImage from "../assets/images/exo.png";
+import battleshipsImage from "../assets/images/battleships.png";
+
+
 
 const projects = [
   {
@@ -7,7 +13,7 @@ const projects = [
     tech: ["Raspberry Pi", "Python", "Tkinter", "NumPy", "3D Printing"],
     description:
       "A touchscreen-powered cocktail mix machine using a Raspberry Pi 4, Python UI, and 3D-printed peristaltic pumps for precise drink dispensing.",
-    image: "/images/smix.jpg",
+    image: smixImage,
     github: "https://github.com/LeviVlasblom/SmartBartenderSMIX",
     demo: "#",
   },
@@ -16,8 +22,8 @@ const projects = [
     tech: ["Arduino", "Zigbee", "AWS IoT", "Vue", "TypeScript", "MQTT", "tailwind", "e2c", "lambda"],
     description:
       "An IoT home system using Zigbee-enabled Arduino sensors to monitor and optimize room temperatures via AWS and a Vue dashboard.",
-    image: "/images/heatnet.jpg",
-    github: "#",
+    image: heatnetImage,
+    github: "https://github.com/LeviVlasblom/HeatNet",
     demo: "#",
   },
   {
@@ -25,8 +31,8 @@ const projects = [
     tech: ["C#", "Speech Recognition", "Windows API"],
     description:
       "A voice assistant for developers that runs on Windows and executes system commands, web searches, and app launches through natural voice input.",
-    image: "/images/exo.jpg",
-    github: "#",
+    image: exoImage,
+    github: "https://github.com/LeviVlasblom/VoiceAssistantEXO",
     demo: "#",
   },
   {
@@ -34,8 +40,8 @@ const projects = [
     tech: ["C#", "Networking", "3D Graphics", "vector math"],
     description:
       "A multiplayer 3D Battleships game with a lobby, IP-based matchmaking, in-game chat, and one-on-one naval combat against friends.",
-    image: "/images/battleships.jpg",
-    github: "#",
+    image: battleshipsImage,
+    github: "https://github.com/Kstrik/CSharp-Eindopdracht-Periode-5",
     demo: "#",
   },
 ];
