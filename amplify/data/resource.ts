@@ -19,10 +19,12 @@ export type Schema = ClientSchema<typeof schema>;
 export const data = defineData({
   schema,
   authorizationModes: {
-    defaultAuthorizationMode: "apiKey",
-    // API Key is used for a.allow.public() rules
+    // move away from default apiKey
+    defaultAuthorizationMode: "iam",
+    // add apiKey as *additional* so CFN creates a new resource (not DefaultApiKey)
+    additionalAuthorizationModes: ["apiKey"],
     apiKeyAuthorizationMode: {
-      expiresInDays: 130,
+      expiresInDays: 130, // keep your value
     },
   },
 });
