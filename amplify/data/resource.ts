@@ -18,9 +18,12 @@ export type Schema = ClientSchema<typeof schema>;
 
 export const data = defineData({
   schema,
-   authorizationModes: {
-      defaultAuthorizationMode: "apiKey", // or 'iam'
-      // remove apiKeyAuthorizationMode for this commit
+  authorizationModes: {
+    defaultAuthorizationMode: "apiKey",
+    // API Key is used for a.allow.public() rules
+    apiKeyAuthorizationMode: {
+      expiresInDays: 30,
+      expiresInDays: 130,
     },
   },
 });
