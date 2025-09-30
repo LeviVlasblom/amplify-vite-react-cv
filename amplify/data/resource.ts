@@ -19,12 +19,11 @@ export type Schema = ClientSchema<typeof schema>;
 export const data = defineData({
   schema,
    authorizationModes: {
-      defaultAuthorizationMode: 'userPool', // or 'iam'
+      defaultAuthorizationMode: "apiKey", // or 'iam'
       // remove apiKeyAuthorizationMode for this commit
     },
   },
 });
-
 /*== STEP 2 ===============================================================
 Go to your frontend source code. From your client-side code, generate a
 Data client to make CRUDL requests to your table. (THIS SNIPPET WILL ONLY
