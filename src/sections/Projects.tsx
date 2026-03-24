@@ -12,7 +12,7 @@ const projects = [
     title: "SMIX",
     tech: ["Raspberry Pi", "Python", "Tkinter", "NumPy", "3D Printing"],
     description:
-      "A touchscreen-powered cocktail mix machine using a Raspberry Pi 4, Python UI, and 3D-printed peristaltic pumps for precise drink dispensing.",
+      "Een touchscreen-aangedreven cocktailmixmachine met een Raspberry Pi 4, Python UI en 3D-geprinte peristaltische pompen voor nauwkeurig dranken serveren.",
     image: smixImage,
     github: "https://github.com/LeviVlasblom/SmartBartenderSMIX",
     demo: "#",
@@ -21,7 +21,7 @@ const projects = [
     title: "HeatNet",
     tech: ["Arduino", "Zigbee", "AWS IoT", "Vue", "TypeScript", "MQTT", "tailwind", "e2c", "lambda"],
     description:
-      "An IoT home system using Zigbee-enabled Arduino sensors to monitor and optimize room temperatures via AWS and a Vue dashboard.",
+      "Een IoT-thuissysteem met Zigbee-Arduino-sensoren om kamertemperaturen te monitoren en te optimaliseren via AWS en een Vue-dashboard.",
     image: heatnetImage,
     github: "https://github.com/LeviVlasblom/HeatNet",
     demo: "#",
@@ -30,7 +30,7 @@ const projects = [
     title: "Voice Assistant EXO",
     tech: ["C#", "Speech Recognition", "Windows API"],
     description:
-      "A voice assistant for developers that runs on Windows and executes system commands, web searches, and app launches through natural voice input.",
+      "Een spraakassistent voor developers die op Windows draait en systeemopdrachten, webzoekopdrachten en app-starts uitvoert via natuurlijke spraakinvoer.",
     image: exoImage,
     github: "https://github.com/LeviVlasblom/VoiceAssistantEXO",
     demo: "#",
@@ -39,7 +39,7 @@ const projects = [
     title: "BattleShips",
     tech: ["C#", "Networking", "3D Graphics", "vector math"],
     description:
-      "A multiplayer 3D Battleships game with a lobby, IP-based matchmaking, in-game chat, and one-on-one naval combat against friends.",
+      "Een multiplayer 3D Battleships-spel met een lobby, IP-gebaseerde matchmaking, in-game chat en een-op-een zeegevechten met vrienden.",
     image: battleshipsImage,
     github: "https://github.com/Kstrik/CSharp-Eindopdracht-Periode-5",
     demo: "#",
@@ -61,7 +61,7 @@ const Projects = () => {
             href="/projects/full"
             className="inline-flex items-center gap-2 text-orange-500 font-semibold hover:underline group transition"
           >
-            View full project list{" "}
+            Bekijk alle projecten{" "}
             <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
           </a>
         </div>

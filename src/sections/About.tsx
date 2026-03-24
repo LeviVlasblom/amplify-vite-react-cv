@@ -31,27 +31,27 @@ const About = () => {
         <Reveal>
           <p className="text-gray-300 leading-relaxed text-2xl">
             <span className="inline-block font-bold text-black bg-white px-2 py-1 mr-2 text-xl rounded">H</span>
-            ey! I'm Levi, a software engineer with a background in Computer Engineering from Avans University in Breda.
+            é! Ik ben Levi, een software engineer met een achtergrond in Computer Engineering van Avans Hogeschool in Breda.
           </p>
         </Reveal>
 
         <Reveal>
           <p className="text-gray-400 leading-relaxed text-xl">
-            I like full-stack development and love working across a wide range of technologies — from <strong>React</strong> and <strong>Node.js</strong> to <strong>C++</strong>, <strong>C#</strong>, and <strong>Java</strong>. I’m especially drawn to projects involving embedded systems, 
-            edge computing, IoT, and game development. If it pushes boundaries, I’m interested.
+            Ik houd van full-stack development en werk graag met een brede set aan technologieën — van <strong>React</strong> en <strong>Node.js</strong> tot <strong>C++</strong>, <strong>C#</strong> en <strong>Java</strong>. Ik word vooral aangetrokken door projecten rondom embedded systems,
+            edge computing, IoT en game development. Als het grenzen verlegt, ben ik geïnteresseerd.
           </p>
         </Reveal>
 
         <Reveal>
           <p className="text-gray-400 leading-relaxed text-xl">
-            Most of my free time is spent exploring new side projects that stretch what code can do — whether it’s building interactive experiences or experimenting with system integrations. 
-            When I’m not coding, you’ll probably find me riding motorcycles, lifting at the gym, traveling, or catching up with friends over a drink.
+            Het grootste deel van mijn vrije tijd besteed ik aan nieuwe zijprojecten die de grenzen van code verleggen — of het nu gaat om interactieve ervaringen bouwen of experimenteren met systeemintegraties.
+            Als ik niet aan het programmeren ben, vind je mij waarschijnlijk op de motor, in de sportschool, op reis, of bij vrienden met een drankje.
           </p>
         </Reveal>
 
         <Reveal>
           <p className="text-gray-400 leading-relaxed text-xl">
-            I’m always open to exciting opportunities that blend creativity, challenge, and impact. If you’re working on something meaningful, let’s connect!
+            Ik sta altijd open voor interessante kansen die creativiteit, uitdaging en impact combineren. Als jij aan iets betekenisvols werkt, laten we dan connecten!
           </p>
         </Reveal>
       </div>
@@ -61,7 +61,7 @@ const About = () => {
         <Reveal>
           <div>
             <div className="flex items-center gap-2 text-orange-500 font-semibold text-lg mb-3">
-              <FaLaptopCode /> Use at work
+              <FaLaptopCode /> Gebruik op het werk
             </div>
             <div className="flex flex-wrap gap-2">
               {workSkills.map((skill) => (
@@ -79,7 +79,7 @@ const About = () => {
         <Reveal>
           <div>
             <div className="flex items-center gap-2 text-orange-500 font-semibold text-lg mb-3">
-              <FaCheckCircle /> Use for fun
+              <FaCheckCircle /> Gebruik voor plezier
             </div>
             <div className="flex flex-wrap gap-2">
               {funSkills.map((skill) => (

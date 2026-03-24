@@ -18,7 +18,7 @@ const Contact = () => {
 
         <Reveal>
           <p className="text-gray-400 text-lg leading-relaxed">
-            Shoot me an email if you want to connect! You can also find me on{" "}
+            Stuur me een mailtje als je wilt connecten! Je kunt me ook vinden op{" "}
             <a
               href="https://linkedin.com/in/levivlasblom"
               target="_blank"
@@ -26,7 +26,7 @@ const Contact = () => {
             >
               LinkedIn
             </a>{" "}
-            or{" "}
+            of{" "}
             <a
               href="https://x.com/EpsilonLevi"
               target="_blank"
@@ -34,7 +34,7 @@ const Contact = () => {
             >
               Twitter
             </a>{" "}
-            if that’s more your speed.
+            als je dat liever hebt.
           </p>
         </Reveal>
 

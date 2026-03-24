@@ -7,7 +7,7 @@ const experiences = [
     location: "Breda",
     period: "2024",
     description:
-      "Developing a CI/CD solution for system updates in water authority infrastructure. Designing sustainable solutions and creating flow algorithms to efficiently manage sewage systems with a focus on energy optimization.",
+      "Ontwikkelen van een CI/CD-oplossing voor systeemupdates binnen de waterautoriteitsinfrastructuur. Ontwerpen van duurzame oplossingen en het maken van stroomalgoritmen voor efficiënt beheer van rioolstelsels met focus op energieoptimalisatie.",
     tech: ["NodeJS", "JSON", "Jenkins", "Gitlab", "Python", "Node-RED", "Docker", "industrial Pi"],
   },
   {
@@ -16,7 +16,7 @@ const experiences = [
     location: "Etten-Leur",
     period: "2022 – 2023",
     description:
-      "Working student contributing to an operator platform for charging station providers. Helping to develop a clear and functional platform where charging station operators can monitor all their available stations and transactions. Integrating OCPP (Open Charge Point Protocol) functionalities for clients.",
+      "Werkstudent die bijdraagt aan een operatorplatform voor laadpaalaanbieders. Meehelpen aan de ontwikkeling van een duidelijk en functioneel platform waarmee laadpaaloperatoren al hun beschikbare stations en transacties kunnen monitoren. Integreren van OCPP (Open Charge Point Protocol) functionaliteiten voor klanten.",
     tech: ["Vue", "Java", "Spring Boot", "PostgreSQL", "Docker", "Kubernetes", "OCPP", "Git", "tailwind"],
   },
 ];

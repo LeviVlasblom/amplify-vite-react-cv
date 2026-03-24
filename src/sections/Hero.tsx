@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="max-w-3xl w-full text-left">
         <Reveal>
           <h1 className="text-5xl md:text-8xl font-bold mb-4">
-            Hey, I'm <span className="text-orange-500">Levi Vlasblom</span>.
+            Hé, I'm <span className="text-orange-500">Levi Vlasblom</span>.
           </h1>
         </Reveal>
 
@@ -21,12 +21,12 @@ const Hero = () => {
 
         <Reveal>
           <p className="max-w-xl text-gray-400 mb-8">
-            I’m a software engineer with 2 years of experience building full-stack
-            applications and scalable cloud systems. My work spans front-end frameworks like React and Angular
-            to cloud platforms such as AWS and Azure.
-            I’m also fluent in Python, C/C++, C#, and Java — with hands-on experience in game development.
-            In my free time, I work on personal code projects and share motorcycle content on YouTube.
-            Let's connect!
+            Met meerdere ervaring in het bouwen van full-stack
+            applicaties en schaalbare cloudsystemen. Mijn werk loopt van front-end frameworks zoals React en Angular
+            tot cloudplatformen als AWS en Azure.
+            Ik ben ook thuis in Python, C/C++, C# en Java — met praktische ervaring in game development.
+            In mijn vrije tijd werk ik aan persoonlijke projecten en deel ik motorinhoud op YouTube.
+            Laten we connecten!
           </p>
         </Reveal>
 
@@ -34,7 +34,7 @@ const Hero = () => {
           <button
             className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded font-medium"
           >
-            Contact me
+            Neem contact op
           </button>
         </Reveal>
       </div>
