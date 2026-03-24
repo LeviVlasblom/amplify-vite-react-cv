@@ -1,14 +1,24 @@
-// /data/fullProjects.ts
+import smixImage from "../assets/images/smix.jpeg";
+import heatnetImage from "../assets/images/heatnet.png";
+import exoImage from "../assets/images/exo.png";
+import battleshipsImage from "../assets/images/battleships.png";
 
-interface FullProject {
+export interface GalleryItem {
+  type: "image" | "video" | "gif";
+  src: string;
+  caption?: string;
+}
+
+export interface FullProject {
   id: string;
   name: string;
   description: string;
-  media?: {
-    type: "image" | "video";
-    src: string;
-  };
-  gallery?: string[];
+  tech: string[];
+  coverImage: string;
+  github: string;
+  demo?: string;
+  // Voeg hier extra afbeeldingen, videos of gifs toe per project
+  gallery?: GalleryItem[];
 }
 
 export const projects: FullProject[] = [
@@ -16,58 +26,49 @@ export const projects: FullProject[] = [
     id: "smix",
     name: "SMIX",
     description:
-      "A touchscreen-powered cocktail mix machine using a Raspberry Pi 4, Python UI, and 3D-printed peristaltic pumps for precise drink dispensing.",
-    media: {
-      type: "video",
-      src: "/assets/media/smix-preview.mp4"
-    },
+      "Een touchscreen-aangedreven cocktailmixmachine met een Raspberry Pi 4, Python UI en 3D-geprinte peristaltische pompen voor nauwkeurig dranken serveren. Het systeem stuurt acht pompen aan via GPIO-pinnen en berekent realtime mengverhoudingen per drankje.",
+    tech: ["Raspberry Pi", "Python", "Tkinter", "NumPy", "3D Printing", "GPIO"],
+    coverImage: smixImage,
+    github: "https://github.com/LeviVlasblom/SmartBartenderSMIX",
     gallery: [
-      "/assets/images/smix1.jpg",
-      "/assets/images/smix2.jpg",
-      "/assets/images/smix-demo.gif"
-    ]
+      { type: "image", src: smixImage, caption: "SMIX machine" },
+      // Voeg hier meer toe: { type: "video", src: "/media/smix-demo.mp4", caption: "Demo" }
+    ],
   },
   {
     id: "heatnet",
     name: "HeatNet",
     description:
-      "An IoT home system using Zigbee-enabled Arduino sensors to monitor and optimize room temperatures via AWS and a Vue dashboard.",
-    media: {
-      type: "image",
-      src: "/assets/images/heatnet.jpg"
-    },
+      "Een IoT-thuissysteem met Zigbee-Arduino-sensoren om kamertemperaturen te monitoren en te optimaliseren via AWS en een Vue-dashboard. Sensordata wordt via MQTT gepubliceerd naar AWS IoT Core, verwerkt door Lambda-functies en realtime getoond in een Vue-interface.",
+    tech: ["Arduino", "Zigbee", "AWS IoT", "Vue", "TypeScript", "MQTT", "Lambda", "Tailwind"],
+    coverImage: heatnetImage,
+    github: "https://github.com/LeviVlasblom/HeatNet",
     gallery: [
-      "/assets/images/heatnet1.jpg",
-      "/assets/images/heatnet2.jpg"
-    ]
+      { type: "image", src: heatnetImage, caption: "HeatNet dashboard" },
+    ],
   },
   {
     id: "exo",
     name: "Voice Assistant EXO",
     description:
-      "A voice assistant for developers that runs on Windows and executes system commands, web searches, and app launches through natural voice input.",
-    media: {
-      type: "video",
-      src: "/assets/media/exo-preview.mp4"
-    },
+      "Een spraakassistent voor developers die op Windows draait en systeemopdrachten, webzoekopdrachten en app-starts uitvoert via natuurlijke spraakinvoer. EXO gebruikt de Windows Speech Recognition API en een zelfgebouwde command-parser voor snelle respons.",
+    tech: ["C#", "Speech Recognition", "Windows API", ".NET"],
+    coverImage: exoImage,
+    github: "https://github.com/LeviVlasblom/VoiceAssistantEXO",
     gallery: [
-      "/assets/images/exo1.jpg",
-      "/assets/images/exo2.jpg",
-      "/assets/images/exo-demo.gif"
-    ]
+      { type: "image", src: exoImage, caption: "EXO interface" },
+    ],
   },
   {
     id: "battleships",
     name: "BattleShips",
     description:
-      "A multiplayer 3D Battleships game with a lobby, IP-based matchmaking, in-game chat, and one-on-one naval combat against friends.",
-    media: {
-      type: "image",
-      src: "/assets/images/battleships.jpg"
-    },
+      "Een multiplayer 3D Battleships-spel met een lobby, IP-gebaseerde matchmaking, in-game chat en een-op-een zeegevechten met vrienden. Het spel gebruikt een custom netwerklayer voor synchroon spelbeheer en 3D-graphics met vector math voor schippositionering.",
+    tech: ["C#", "Networking", "3D Graphics", "Vector Math", "WinForms"],
+    coverImage: battleshipsImage,
+    github: "https://github.com/Kstrik/CSharp-Eindopdracht-Periode-5",
     gallery: [
-      "/assets/images/battleships1.jpg",
-      "/assets/images/battleships2.jpg"
-    ]
-  }
+      { type: "image", src: battleshipsImage, caption: "BattleShips gameplay" },
+    ],
+  },
 ];
